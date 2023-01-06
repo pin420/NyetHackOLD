@@ -7,7 +7,7 @@
 
 
 
-val narrationModifier: (String) -> String = { message ->
+val narrationModifier= { message: String ->
     val numExclamationPoints = 3
     message.uppercase() +"!".repeat(numExclamationPoints)
 }
