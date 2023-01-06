@@ -8,11 +8,11 @@
 import kotlin.random.Random
 import kotlin.random.nextInt
 
-var narrationModifier: (String) -> String = { it }
+var narrationModifier: (String) -> String = { message -> message }
 
 fun narrate(
     message: String,
-    modifier: (String) -> String = { narrationModifier(it) }
+    modifier: (String) -> String = { str -> narrationModifier(str) }
 ) {
     println(modifier(message))
 }
