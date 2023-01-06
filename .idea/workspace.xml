@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Функция получает функцию" />
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="add Standart lib" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,7 +133,28 @@
       <option name="project" value="LOCAL" />
       <updated>1673030575871</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Избавился от it">
+      <created>1673031485697</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673031485697</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add inline">
+      <created>1673032139921</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1673032139921</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add Standart lib">
+      <created>1673033331707</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1673033331707</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +177,9 @@
     <MESSAGE value="Эффективность лямбда-выражений" />
     <MESSAGE value="ункция получает функцию" />
     <MESSAGE value="Функция получает функцию" />
-    <option name="LAST_COMMIT_MESSAGE" value="Функция получает функцию" />
+    <MESSAGE value="Избавился от it" />
+    <MESSAGE value="add inline" />
+    <MESSAGE value="add Standart lib" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Standart lib" />
   </component>
 </project>
