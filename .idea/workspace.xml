@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Создание списка посетителей">
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Изменяемый список готов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Tavern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Tavern.kt" afterDir="false" />
     </list>
@@ -185,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673103221421</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Изменяемый список готов">
+      <created>1673105284439</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1673105284439</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +222,7 @@
     <MESSAGE value="Основание таверны" />
     <MESSAGE value="Подготовка функции main" />
     <MESSAGE value="Создание списка посетителей" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создание списка посетителей" />
+    <MESSAGE value="Изменяемый список готов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменяемый список готов" />
   </component>
 </project>
