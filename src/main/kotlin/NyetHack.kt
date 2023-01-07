@@ -1,19 +1,35 @@
 
 
 
+
+var heroName: String = ""
+
+
 fun main() {
+    heroName = promptHeroName()
+
+//    changeNarratorMood()
+
+    narrate("$heroName, ${createTitle(heroName)}, heads to the town square")
+
+    visitTavern()
+}
+
+
+private fun promptHeroName(): String {
     narrate("A hero enters the town of Kronstadt. What is their name?"
     ) { message -> "\u001b[33;1m$message\u001b[0m" }
 
-    val heroName = readLine()
+//    val input = readLine()
+//    require(!heroName.isNullOrEmpty()) {
+//        "The hero must have a name"
+//    }
+//    return input
 
-    require(!heroName.isNullOrEmpty()) {
-        "The hero must have a name"
-    }
-
-    changeNarratorMood()
-    narrate("$heroName, ${createTitle(heroName)}, heads to the town square")
+    println("Madrigal")
+    return "Madrigal"
 }
+
 
 private fun createTitle(name: String): String {
     return when {
