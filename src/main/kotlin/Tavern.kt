@@ -10,17 +10,24 @@ private val menuItem = List(menuData.size) { index ->
     name
 }
 
+private val firstNames = setOf("Alex", "Mordoc", "Sophie", "Tariq")
+private val lastNames = setOf("Ironfoot", "Fernsworth", "Baggins", "Downstrider")
 
 fun visitTavern() {
     narrate("$heroName enters $TAVERN_NAME")
     narrate("There are several items for sale:")
-    println(menuItem)
+    narrate(menuItem.joinToString())
 
-    val patrons = mutableListOf("Eli", "Mordoc", "Sophie")
+    val patrons: MutableSet<String> = mutableSetOf()
+    repeat(10) {
+        patrons += "${firstNames.random()} ${lastNames.random()}"
+    }
 
-    patrons.forEachIndexed { index, patron ->
-        println("Good evening, $patron - you're #${index + 1} in line")
-        placeOrder(patron, menuItem.random())
+    narrate("$heroName sees several patrons in tavern:")
+    narrate(patrons.joinToString())
+
+    repeat(3) {
+        placeOrder(patrons.random(), menuItem.random())
     }
 }
 
