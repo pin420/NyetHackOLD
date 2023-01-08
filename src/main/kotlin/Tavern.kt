@@ -1,13 +1,10 @@
-
-
-
-
-
-
+import java.io.File
 
 private const val TAVERN_MASTER = "Taernyl"
 private const val TAVERN_NAME = "$TAVERN_MASTER's Folly"
-
+private val menuData = File("data/tavern-menu-data.txt")
+    .readText()
+    .split("\n")
 
 
 fun visitTavern() {
@@ -20,6 +17,9 @@ fun visitTavern() {
         placeOrder(patron, "Dragon's Breath")
     }
 
+    menuData.forEachIndexed { index, data ->
+        println("$index : $data")
+    }
 }
 
 
