@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Цикл while">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Tavern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Tavern.kt" afterDir="false" />
-    </list>
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Добавление записей в ассоциативный массив" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -228,7 +225,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673193545058</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Создание ассоциативного массива и доступ к его значениям">
+      <created>1673293606196</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1673293606196</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Добавление записей в ассоциативный массив">
+      <created>1673296387280</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1673296387280</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,6 +275,8 @@
     <MESSAGE value="Деструкторизация из списка в список" />
     <MESSAGE value="Множества" />
     <MESSAGE value="Цикл while" />
-    <option name="LAST_COMMIT_MESSAGE" value="Цикл while" />
+    <MESSAGE value="Создание ассоциативного массива и доступ к его значениям" />
+    <MESSAGE value="Добавление записей в ассоциативный массив" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавление записей в ассоциативный массив" />
   </component>
 </project>

@@ -19,22 +19,18 @@ fun visitTavern() {
     narrate(menuItem.joinToString())
 
     val patrons: MutableSet<String> = mutableSetOf()
-    val patronGold = mapOf(
+    val patronGold = mutableMapOf(
         TAVERN_MASTER to 86.0,
         heroName to 4.50
     )
 
-
-
     while(patrons.size < 10) {
-        patrons += "${firstNames.random()} ${lastNames.random()}"
+        val patronName = "${firstNames.random()} ${lastNames.random()}"
+        patrons += patronName
+        patronGold += patronName to 6.00
     }
 
-
     println(patronGold)
-    println(patronGold["Madrigal"])
-    println(patronGold["Taernyl"])
-    println(patronGold["Eli"])
 
     narrate("$heroName sees several patrons in tavern:")
     narrate(patrons.joinToString())
