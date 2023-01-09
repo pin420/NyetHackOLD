@@ -24,24 +24,38 @@ fun visitTavern() {
         heroName to 4.50
     )
 
-    while(patrons.size < 10) {
+    while(patrons.size < 5) {
         val patronName = "${firstNames.random()} ${lastNames.random()}"
         patrons += patronName
         patronGold += patronName to 6.00
     }
 
-    println(patronGold)
-
     narrate("$heroName sees several patrons in tavern:")
     narrate(patrons.joinToString())
 
+    println(patronGold)
     repeat(3) {
-        placeOrder(patrons.random(), menuItem.random())
+        placeOrder(patrons.random(), menuItem.random(), patronGold)
     }
+    println(patronGold)
 }
 
 
-private fun placeOrder(patronName: String, menuItemName: String) {
+private fun placeOrder(
+    patronName: String,
+    menuItemName: String,
+    patronGold: MutableMap<String, Double>
+) {
+    val itemPrice = 1.0
+
     narrate("$patronName speaks with $TAVERN_MASTER to place an order")
-    narrate("$TAVERN_MASTER hands $patronName a $menuItemName")
+
+    if (itemPrice <= patronGold.getOrDefault(patronName, 0.0)) {
+        narrate("$TAVERN_MASTER hands $patronName a $menuItemName")
+        narrate("$patronName pays $TAVERN_MASTER $itemPrice gold")
+        patronGold[patronName] = patronGold.getValue(patronName) - itemPrice
+        patronGold[TAVERN_MASTER] = patronGold.getValue(TAVERN_MASTER) + itemPrice
+    } else {
+        narrate("$TAVERN_MASTER says, \" You need more coin for a $menuItemName\"")
+    }
 }
