@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Изменение значений в ассоциативном массиве">
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Преобразование между списками и ассоциативными массивами">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Tavern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Tavern.kt" afterDir="false" />
     </list>
@@ -256,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673297996751</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Преобразование между списками и ассоциативными массивами">
+      <created>1673300884563</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1673300884563</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -295,6 +302,7 @@
     <MESSAGE value="Создание ассоциативного массива и доступ к его значениям" />
     <MESSAGE value="Добавление записей в ассоциативный массив" />
     <MESSAGE value="Изменение значений в ассоциативном массиве" />
-    <option name="LAST_COMMIT_MESSAGE" value="Изменение значений в ассоциативном массиве" />
+    <MESSAGE value="Преобразование между списками и ассоциативными массивами" />
+    <option name="LAST_COMMIT_MESSAGE" value="Преобразование между списками и ассоциативными массивами" />
   </component>
 </project>
