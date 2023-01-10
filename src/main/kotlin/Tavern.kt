@@ -5,18 +5,19 @@ private const val TAVERN_NAME = "$TAVERN_MASTER's Folly"
 private val menuData = File("data/tavern-menu-data.txt")
     .readText()
     .split("\n")
-private val menuItem = List(menuData.size) { index ->
-    val (_, name, _) = menuData[index].split(",")
+
+private val menuItems: List<String> = menuData.map { menuEntry: String ->
+    val (_, name, _) = menuEntry.split(",")
     name
 }
 
-private val menuItemPrices: Map<String, Double> = List(menuData.size) { index ->
-    val (_, name, price) = menuData[index].split(",")
+private val menuItemPrices: Map<String, Double> = menuData.map { menuEntry ->
+    val (_, name, price) = menuEntry.split(",")
     name to price.toDouble()
 }.toMap()
 
-private val menuItemType: Map<String, String> = List(menuData.size) { index ->
-    val (type, name, _) = menuData[index].split(",")
+private val menuItemType: Map<String, String> = menuData.map { menuEntry ->
+    val (type, name, _) = menuEntry.split(",")
     name to type
 }.toMap()
 
@@ -26,7 +27,7 @@ private val lastNames = setOf("Ironfoot", "Fernsworth", "Baggins", "Downstrider"
 fun visitTavern() {
     narrate("$heroName enters $TAVERN_NAME")
     narrate("There are several items for sale:")
-    narrate(menuItem.joinToString())
+    narrate(menuItems.joinToString())
 
     val patrons: MutableSet<String> = mutableSetOf()
     val patronGold = mutableMapOf(
@@ -45,7 +46,7 @@ fun visitTavern() {
 
     displayPatronBalances(patronGold)
     repeat(3) {
-        placeOrder(patrons.random(), menuItem.random(), patronGold)
+        placeOrder(patrons.random(), menuItems.random(), patronGold)
     }
     displayPatronBalances(patronGold)
 }

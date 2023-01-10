@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Преобразование между списками и ассоциативными массивами">
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Перебор элементов ассоциативного массива">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Tavern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Tavern.kt" afterDir="false" />
     </list>
@@ -263,7 +263,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673300884563</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Перебор элементов ассоциативного массива">
+      <created>1673301623671</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1673301623671</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Перебор элементов ассоциативного массива">
+      <created>1673301730683</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1673301730683</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,7 +292,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Start" />
     <MESSAGE value="Лямбда" />
     <MESSAGE value="Лямбда тип функции" />
     <MESSAGE value="Аргументы лямбды" />
@@ -303,6 +316,7 @@
     <MESSAGE value="Добавление записей в ассоциативный массив" />
     <MESSAGE value="Изменение значений в ассоциативном массиве" />
     <MESSAGE value="Преобразование между списками и ассоциативными массивами" />
-    <option name="LAST_COMMIT_MESSAGE" value="Преобразование между списками и ассоциативными массивами" />
+    <MESSAGE value="Перебор элементов ассоциативного массива" />
+    <option name="LAST_COMMIT_MESSAGE" value="Перебор элементов ассоциативного массива" />
   </component>
 </project>
