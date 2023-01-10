@@ -11,15 +11,15 @@ private val menuItems: List<String> = menuData.map { menuEntry: String ->
     name
 }
 
-private val menuItemPrices: Map<String, Double> = menuData.map { menuEntry ->
+private val menuItemPrices: Map<String, Double> = menuData.associate { menuEntry ->
     val (_, name, price) = menuEntry.split(",")
     name to price.toDouble()
-}.toMap()
+}
 
-private val menuItemType: Map<String, String> = menuData.map { menuEntry ->
+private val menuItemType: Map<String, String> = menuData.associate { menuEntry ->
     val (type, name, _) = menuEntry.split(",")
     name to type
-}.toMap()
+}
 
 private val firstNames = setOf("Alex", "Mordoc", "Sophie", "Tariq")
 private val lastNames = setOf("Ironfoot", "Fernsworth", "Baggins", "Downstrider")

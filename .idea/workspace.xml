@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Перебор элементов ассоциативного массива">
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Преобразование данных use .map {}">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Tavern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Tavern.kt" afterDir="false" />
     </list>
@@ -277,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673301730683</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Преобразование данных use .map {}">
+      <created>1673371437791</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1673371437791</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,7 +299,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Лямбда" />
     <MESSAGE value="Лямбда тип функции" />
     <MESSAGE value="Аргументы лямбды" />
     <MESSAGE value="Автоматическое определение типа лямбды с помощью" />
@@ -317,6 +323,7 @@
     <MESSAGE value="Изменение значений в ассоциативном массиве" />
     <MESSAGE value="Преобразование между списками и ассоциативными массивами" />
     <MESSAGE value="Перебор элементов ассоциативного массива" />
-    <option name="LAST_COMMIT_MESSAGE" value="Перебор элементов ассоциативного массива" />
+    <MESSAGE value="Преобразование данных use .map {}" />
+    <option name="LAST_COMMIT_MESSAGE" value="Преобразование данных use .map {}" />
   </component>
 </project>
