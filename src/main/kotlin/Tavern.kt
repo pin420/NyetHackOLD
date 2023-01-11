@@ -5,21 +5,13 @@ private const val TAVERN_NAME = "$TAVERN_MASTER's Folly"
 private val menuData = File("data/tavern-menu-data.txt")
     .readText()
     .split("\n")
+    .map { line -> line.split(",") }
 
-private val menuItems: List<String> = menuData.map { menuEntry: String ->
-    val (_, name, _) = menuEntry.split(",")
-    name
-}
+private val menuItems = menuData.map { (_, name, _) -> name }
 
-private val menuItemPrices: Map<String, Double> = menuData.associate { menuEntry ->
-    val (_, name, price) = menuEntry.split(",")
-    name to price.toDouble()
-}
+private val menuItemPrices: Map<String, Double> = menuData.associate { (_, name, price) -> name to price.toDouble() }
 
-private val menuItemType: Map<String, String> = menuData.associate { menuEntry ->
-    val (type, name, _) = menuEntry.split(",")
-    name to type
-}
+private val menuItemType: Map<String, String> = menuData.associate { (type, name, _) -> name to type }
 
 private val firstNames = setOf("Alex", "Mordoc", "Sophie", "Tariq")
 private val lastNames = setOf("Ironfoot", "Fernsworth", "Baggins", "Downstrider")

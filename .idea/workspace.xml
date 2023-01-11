@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Преобразование данных use .map {}">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Tavern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Tavern.kt" afterDir="false" />
-    </list>
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="use .associate {}" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -284,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673371437791</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="use .associate {}">
+      <created>1673373148442</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1673373148442</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,7 +303,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Лямбда тип функции" />
     <MESSAGE value="Аргументы лямбды" />
     <MESSAGE value="Автоматическое определение типа лямбды с помощью" />
     <MESSAGE value="Эффективность лямбда-выражений" />
@@ -324,6 +327,7 @@
     <MESSAGE value="Преобразование между списками и ассоциативными массивами" />
     <MESSAGE value="Перебор элементов ассоциативного массива" />
     <MESSAGE value="Преобразование данных use .map {}" />
-    <option name="LAST_COMMIT_MESSAGE" value="Преобразование данных use .map {}" />
+    <MESSAGE value="use .associate {}" />
+    <option name="LAST_COMMIT_MESSAGE" value="use .associate {}" />
   </component>
 </project>
