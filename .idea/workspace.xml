@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="use .associate {}" />
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Деструктуризация с map">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Tavern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Tavern.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -288,7 +291,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673373148442</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Деструкторизация с map">
+      <created>1673481198723</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1673481198723</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Деструктуризация с map">
+      <created>1673481214017</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1673481214017</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -303,8 +320,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Аргументы лямбды" />
-    <MESSAGE value="Автоматическое определение типа лямбды с помощью" />
     <MESSAGE value="Эффективность лямбда-выражений" />
     <MESSAGE value="ункция получает функцию" />
     <MESSAGE value="Функция получает функцию" />
@@ -328,6 +343,8 @@
     <MESSAGE value="Перебор элементов ассоциативного массива" />
     <MESSAGE value="Преобразование данных use .map {}" />
     <MESSAGE value="use .associate {}" />
-    <option name="LAST_COMMIT_MESSAGE" value="use .associate {}" />
+    <MESSAGE value="Деструкторизация с map" />
+    <MESSAGE value="Деструктуризация с map" />
+    <option name="LAST_COMMIT_MESSAGE" value="Деструктуризация с map" />
   </component>
 </project>

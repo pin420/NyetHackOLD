@@ -1,4 +1,6 @@
 import java.io.File
+import kotlin.random.Random
+import kotlin.random.nextInt
 
 private const val TAVERN_MASTER = "Taernyl"
 private const val TAVERN_NAME = "$TAVERN_MASTER's Folly"
@@ -36,11 +38,26 @@ fun visitTavern() {
     narrate("$heroName sees several patrons in tavern:")
     narrate(patrons.joinToString())
 
+    val favoriteItems = patrons.flatMap { patron -> getFavoriteMenuItems(patron) }
+    println("Favorite items: $favoriteItems")
+    val itemOfDay = favoriteItems.random()
+    narrate("The item of the day is the $itemOfDay")
+
     displayPatronBalances(patronGold)
     repeat(3) {
         placeOrder(patrons.random(), menuItems.random(), patronGold)
     }
     displayPatronBalances(patronGold)
+}
+
+
+private fun getFavoriteMenuItems(patron: String): List<String> {
+    return when (patron) {
+        "Alex Ironfoot" -> menuItems.filter { menuItem ->
+            menuItemType[menuItem]?.contains("dessert") == true
+        }
+        else -> menuItems.shuffled().take(Random.nextInt(1..2))
+    }
 }
 
 
