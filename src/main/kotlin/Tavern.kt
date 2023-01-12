@@ -23,17 +23,15 @@ fun visitTavern() {
     narrate("There are several items for sale:")
     narrate(menuItems.joinToString())
 
-    val patrons: MutableSet<String> = mutableSetOf()
+    val patrons: MutableSet<String> = firstNames.shuffled()
+        .zip(lastNames.shuffled()) { firstNames, lastNames -> "$firstNames $lastNames"}
+            .toMutableSet()
+
     val patronGold = mutableMapOf(
         TAVERN_MASTER to 86.0,
-        heroName to 4.50
+        heroName to 4.50,
+        *patrons.map { patron -> patron to 6.0 }.toTypedArray()
     )
-
-    while(patrons.size < 5) {
-        val patronName = "${firstNames.random()} ${lastNames.random()}"
-        patrons += patronName
-        patronGold += patronName to 6.00
-    }
 
     narrate("$heroName sees several patrons in tavern:")
     narrate(patrons.joinToString())
