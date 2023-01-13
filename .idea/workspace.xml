@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="use also - функция области видимости">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Player.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/NyetHack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/NyetHack.kt" afterDir="false" />
-    </list>
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Экземпляр класса и его функция" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -327,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673562959201</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Экземпляр класса и его функция">
+      <created>1673633243670</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1673633243670</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -342,7 +345,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Избавился от it" />
     <MESSAGE value="add inline" />
     <MESSAGE value="add Standart lib" />
     <MESSAGE value="Изменение переменных и захват переменнх вне области видимости лямбдо-выражений" />
@@ -367,6 +369,7 @@
     <MESSAGE value="use flatMap это flatten(удаление вложенности) + map" />
     <MESSAGE value="use also" />
     <MESSAGE value="use also - функция области видимости" />
-    <option name="LAST_COMMIT_MESSAGE" value="use also - функция области видимости" />
+    <MESSAGE value="Экземпляр класса и его функция" />
+    <option name="LAST_COMMIT_MESSAGE" value="Экземпляр класса и его функция" />
   </component>
 </project>
