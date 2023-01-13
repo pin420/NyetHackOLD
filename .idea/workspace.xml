@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="use flatMap это flatten(удаление вложенности) + map">
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="use also - функция области видимости">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Player.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/NyetHack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/NyetHack.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,7 +313,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673482986139</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="use also">
+      <created>1673562936761</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1673562936761</updated>
+    </task>
+    <task id="LOCAL-00036" summary="use also - функция области видимости">
+      <created>1673562959201</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1673562959201</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -326,8 +342,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ункция получает функцию" />
-    <MESSAGE value="Функция получает функцию" />
     <MESSAGE value="Избавился от it" />
     <MESSAGE value="add inline" />
     <MESSAGE value="add Standart lib" />
@@ -351,6 +365,8 @@
     <MESSAGE value="Деструкторизация с map" />
     <MESSAGE value="Деструктуризация с map" />
     <MESSAGE value="use flatMap это flatten(удаление вложенности) + map" />
-    <option name="LAST_COMMIT_MESSAGE" value="use flatMap это flatten(удаление вложенности) + map" />
+    <MESSAGE value="use also" />
+    <MESSAGE value="use also - функция области видимости" />
+    <option name="LAST_COMMIT_MESSAGE" value="use also - функция области видимости" />
   </component>
 </project>

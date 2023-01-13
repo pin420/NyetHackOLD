@@ -4,6 +4,7 @@
 
 var heroName: String = ""
 
+val player = Player()
 
 fun main() {
     heroName = promptHeroName()
@@ -13,6 +14,8 @@ fun main() {
     narrate("$heroName, ${createTitle(heroName)}, heads to the town square")
 
     visitTavern()
+
+    player.castFireball()
 }
 
 
