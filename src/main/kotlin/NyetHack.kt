@@ -7,9 +7,12 @@ val player = Player()
 
 fun main() {
 
+    narrate("${player.name} is ${player.title}")
+    player.changeName("Aurelia")
+
 //    changeNarratorMood()
 
-    narrate("${player.name}, ${createTitle(player.name)}, heads to the town square")
+    narrate("${player.name}, ${player.title}, heads to the town square")
 
     visitTavern()
 
@@ -31,12 +34,3 @@ private fun promptHeroName(): String {
     return "Madrigal"
 }
 
-
-private fun createTitle(name: String): String {
-    return when {
-        name.all { letter -> letter.isDigit() } -> "The Identifiable"
-        name.none { letter -> letter.isLetter() } -> "The Witness Protection Member"
-        name.count { letter -> letter.lowercase() in "aeiou" } > 4 -> "The Master of Vowel"
-        else -> "The Renowned Hero"
-    }
-}
