@@ -1,4 +1,4 @@
-
+package com.bignerdranch.nyethack
 
 
 
@@ -10,7 +10,7 @@ fun main() {
     narrate("${player.name} is ${player.title}")
     player.changeName("Aurelia")
 
-//    changeNarratorMood()
+//    com.bignerdranch.nyethack.changeNarratorMood()
 
     narrate("${player.name}, ${player.title}, heads to the town square")
 
