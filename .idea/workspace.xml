@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Дополнительный конструктор">
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Аргументы по умолчанию в классе">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/NyetHack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/NyetHack.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Player.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Player.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -395,7 +393,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673752733619</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Аргументы по умолчанию в классе">
+      <created>1673754160895</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1673754160895</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -410,7 +415,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Итерации for forEach forEachIndexed" />
     <MESSAGE value="Чтение файла в список" />
     <MESSAGE value="Деструкторизация из списка в список" />
     <MESSAGE value="Множества" />
@@ -435,6 +439,7 @@
     <MESSAGE value="Главный конструктор" />
     <MESSAGE value="Объявление свойств в главном конструкторе" />
     <MESSAGE value="Дополнительный конструктор" />
-    <option name="LAST_COMMIT_MESSAGE" value="Дополнительный конструктор" />
+    <MESSAGE value="Аргументы по умолчанию в классе" />
+    <option name="LAST_COMMIT_MESSAGE" value="Аргументы по умолчанию в классе" />
   </component>
 </project>
