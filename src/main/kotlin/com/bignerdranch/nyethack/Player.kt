@@ -3,9 +3,9 @@ package com.bignerdranch.nyethack
 
 class Player(
     initialName: String,
-    hometown: String,
-    healthPoints: Int,
-    isImmortal: Boolean
+    val hometown: String,
+    var healthPoints: Int,
+    val isImmortal: Boolean
 ) {
 
     var name = initialName
@@ -13,12 +13,6 @@ class Player(
         private set(value) {
             field = value.trim()
         }
-
-    val hometown = hometown
-
-    var healthPoints = healthPoints
-
-    val isImmortal = isImmortal
 
     val title: String
         get() = when {
