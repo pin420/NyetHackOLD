@@ -3,7 +3,7 @@ package com.bignerdranch.nyethack
 
 
 
-val player = Player("Jason", "Jacksonville")
+val player = Player("Jason")
 
 fun main() {
 
