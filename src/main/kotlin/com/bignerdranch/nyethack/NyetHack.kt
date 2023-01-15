@@ -3,9 +3,15 @@ package com.bignerdranch.nyethack
 
 
 
-val player = Player("Jason")
+//val player = Player("Jason")
+
+lateinit var player: Player
 
 fun main() {
+
+    narrate("Welcome to NeatHack!")
+    val playerName = promptHeroName()
+    player = Player(playerName)
 
 //    com.bignerdranch.nyethack.changeNarratorMood()
 
