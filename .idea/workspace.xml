@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Главный конструктор">
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Объявление свойств в главном конструкторе">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Player.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Player.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -379,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673750915577</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Объявление свойств в главном конструкторе">
+      <created>1673751880563</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1673751880563</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -394,7 +402,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Создание списка посетителей" />
     <MESSAGE value="Изменяемый список готов" />
     <MESSAGE value="Итерации for forEach forEachIndexed" />
     <MESSAGE value="Чтение файла в список" />
@@ -419,6 +426,7 @@
     <MESSAGE value="Вычисляемые свойства" />
     <MESSAGE value="Создание пакета" />
     <MESSAGE value="Главный конструктор" />
-    <option name="LAST_COMMIT_MESSAGE" value="Главный конструктор" />
+    <MESSAGE value="Объявление свойств в главном конструкторе" />
+    <option name="LAST_COMMIT_MESSAGE" value="Объявление свойств в главном конструкторе" />
   </component>
 </project>

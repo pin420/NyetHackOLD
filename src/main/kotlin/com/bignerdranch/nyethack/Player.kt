@@ -22,6 +22,17 @@ class Player(
             else -> "The Renowned Hero"
         }
 
+    constructor(name: String, hometown: String) : this(
+        initialName = name,
+        hometown = hometown,
+        healthPoints = 100,
+        isImmortal = false
+    ) {
+        if (name.equals("Jason", ignoreCase = true)) {
+            healthPoints = 500
+        }
+    }
+
     fun castFireball(numFireballs: Int = 2) {
         narrate("A glass of Fireballs springs into existence (x$numFireballs)")
     }
