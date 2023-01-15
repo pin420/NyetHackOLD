@@ -14,7 +14,7 @@ fun main() {
     player = Player(playerName)
 
 //    com.bignerdranch.nyethack.changeNarratorMood()
-
+    player.prophesize()
     val mortality = if (player.isImmortal) "an immortal" else "a mortal"
 
     narrate("${player.name} of ${player.hometown}, ${player.title}, heads to the town square")
@@ -24,6 +24,7 @@ fun main() {
     visitTavern()
 
     player.castFireball()
+    player.prophesize()
 }
 
 

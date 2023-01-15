@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Блок иницаиализации">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/NyetHack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/NyetHack.kt" afterDir="false" />
-    </list>
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Поздняя иницаиализация lateinit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -401,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673754160895</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Поздняя иницаиализация lateinit">
+      <created>1673806917831</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1673806917831</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -416,7 +420,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Чтение файла в список" />
     <MESSAGE value="Деструкторизация из списка в список" />
     <MESSAGE value="Множества" />
     <MESSAGE value="Цикл while" />
@@ -441,6 +444,7 @@
     <MESSAGE value="Объявление свойств в главном конструкторе" />
     <MESSAGE value="Дополнительный конструктор" />
     <MESSAGE value="Аргументы по умолчанию в классе" />
-    <option name="LAST_COMMIT_MESSAGE" value="Аргументы по умолчанию в классе" />
+    <MESSAGE value="Поздняя иницаиализация lateinit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Поздняя иницаиализация lateinit" />
   </component>
 </project>
