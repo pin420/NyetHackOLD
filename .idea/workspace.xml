@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Поздняя иницаиализация lateinit" />
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Отложенная(ленивая) иницаиализация by lazy">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -405,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673806917831</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Отложенная(ленивая) иницаиализация by lazy">
+      <created>1673809409749</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1673809409749</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -420,7 +429,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Деструкторизация из списка в список" />
     <MESSAGE value="Множества" />
     <MESSAGE value="Цикл while" />
     <MESSAGE value="Создание ассоциативного массива и доступ к его значениям" />
@@ -444,7 +452,8 @@
     <MESSAGE value="Объявление свойств в главном конструкторе" />
     <MESSAGE value="Дополнительный конструктор" />
     <MESSAGE value="Аргументы по умолчанию в классе" />
-    <MESSAGE value="Поздняя иницаиализация lateinit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Поздняя иницаиализация lateinit" />
+    <MESSAGE value="Поздняя инициализация lateinit" />
+    <MESSAGE value="Отложенная(ленивая) инициализация by lazy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Отложенная(ленивая) инициализация by lazy" />
   </component>
 </project>
