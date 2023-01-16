@@ -1,12 +1,13 @@
 package com.bignerdranch.nyethack
 
-class Room(val name: String) {
+open class Room(val name: String) {
 
-    fun description() = name
+    protected open val status = "Calm"
 
-    fun enterRoom() {
+    fun description() = "$name (Currently: $status)"
+
+    open fun enterRoom() {
         narrate("There is nothing to do here")
     }
-
 
 }

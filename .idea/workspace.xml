@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Отложенная(ленивая) иницаиализация by lazy">
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Объявление класса Room">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/TownSquare.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Room.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Room.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -414,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673809409749</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Объявление класса Room">
+      <created>1673909293420</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1673909293420</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -429,7 +438,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Множества" />
     <MESSAGE value="Цикл while" />
     <MESSAGE value="Создание ассоциативного массива и доступ к его значениям" />
     <MESSAGE value="Добавление записей в ассоциативный массив" />
@@ -454,6 +462,7 @@
     <MESSAGE value="Аргументы по умолчанию в классе" />
     <MESSAGE value="Поздняя инициализация lateinit" />
     <MESSAGE value="Отложенная(ленивая) инициализация by lazy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Отложенная(ленивая) инициализация by lazy" />
+    <MESSAGE value="Объявление класса Room" />
+    <option name="LAST_COMMIT_MESSAGE" value="Объявление класса Room" />
   </component>
 </project>
