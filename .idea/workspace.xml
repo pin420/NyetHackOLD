@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Создание подкласса TownSquare, use open, override, final">
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Рефакторинг кода таверны">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/NyetHack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/NyetHack.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Tavern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Tavern.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +78,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672862418875</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Лямбда">
-      <created>1672922586498</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1672922586498</updated>
     </task>
     <task id="LOCAL-00003" summary="Лямбда тип функции">
       <created>1672922931537</created>
@@ -423,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673911545233</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Рефакторинг кода таверны">
+      <created>1674011065047</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1674011065047</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -438,7 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Создание ассоциативного массива и доступ к его значениям" />
     <MESSAGE value="Добавление записей в ассоциативный массив" />
     <MESSAGE value="Изменение значений в ассоциативном массиве" />
     <MESSAGE value="Преобразование между списками и ассоциативными массивами" />
@@ -463,6 +461,7 @@
     <MESSAGE value="Отложенная(ленивая) инициализация by lazy" />
     <MESSAGE value="Объявление класса Room" />
     <MESSAGE value="Создание подкласса TownSquare, use open, override, final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создание подкласса TownSquare, use open, override, final" />
+    <MESSAGE value="Рефакторинг кода таверны" />
+    <option name="LAST_COMMIT_MESSAGE" value="Рефакторинг кода таверны" />
   </component>
 </project>

@@ -1,8 +1,5 @@
 package com.bignerdranch.nyethack
 
-
-
-
 //val player = Player("Jason")
 
 lateinit var player: Player
@@ -14,20 +11,10 @@ fun main() {
     player = Player(playerName)
 
 //    com.bignerdranch.nyethack.changeNarratorMood()
-    player.prophesize()
 
-    val currentRoom: Room = Tavern()
-    val mortality = if (player.isImmortal) "an immortal" else "a mortal"
 
-    narrate("${player.name} of ${player.hometown}, ${player.title}," +
-            " is in ${currentRoom.description()}")
 
-    narrate("${player.name}, $mortality, has ${player.healthPoints} health points")
-
-    currentRoom.enterRoom()
-
-    player.castFireball()
-    player.prophesize()
+    Game.play()
 }
 
 
@@ -43,5 +30,27 @@ private fun promptHeroName(): String {
 
     println("Madrigal")
     return "Madrigal"
+}
+
+
+object Game {
+    private val currentRoom: Room = TownSquare()
+
+    init {
+        narrate("Welcome, adventurer")
+        val mortality = if (player.isImmortal) "an immortal" else "a mortal"
+        narrate("${player.name}, $mortality, has ${player.healthPoints} health points")
+    }
+
+    fun play() {
+        while (true) {
+            narrate("${player.name} of ${player.hometown}, ${player.title}," +
+                    " is in ${currentRoom.description()}")
+            currentRoom.enterRoom()
+
+            print("> Enter your command: ")
+            println("Last command: ${readLine()}")
+        }
+    }
 }
 
