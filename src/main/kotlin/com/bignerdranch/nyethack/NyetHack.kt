@@ -34,7 +34,8 @@ private fun promptHeroName(): String {
 
 
 object Game {
-    private val currentRoom: Room = TownSquare()
+    private var currentRoom: Room = TownSquare()
+    private var currentPosition = Coordinate(0, 0)
 
     init {
         narrate("Welcome, adventurer")

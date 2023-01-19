@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Объявление объекта Game, use object">
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Вложенные классы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,13 +77,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672862418875</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Автоматическое определение типа лямбды с помощью">
-      <created>1673017133205</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1673017133205</updated>
     </task>
     <task id="LOCAL-00006" summary="Эффективность лямбда-выражений">
       <created>1673019281529</created>
@@ -421,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674068679452</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Вложенные классы">
+      <created>1674073591238</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1674073591238</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -436,7 +436,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Изменение значений в ассоциативном массиве" />
     <MESSAGE value="Преобразование между списками и ассоциативными массивами" />
     <MESSAGE value="Перебор элементов ассоциативного массива" />
     <MESSAGE value="Преобразование данных use .map {}" />
@@ -461,6 +460,7 @@
     <MESSAGE value="Создание подкласса TownSquare, use open, override, final" />
     <MESSAGE value="Рефакторинг кода таверны" />
     <MESSAGE value="Объявление объекта Game, use object" />
-    <option name="LAST_COMMIT_MESSAGE" value="Объявление объекта Game, use object" />
+    <MESSAGE value="Вложенные классы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Вложенные классы" />
   </component>
 </project>
