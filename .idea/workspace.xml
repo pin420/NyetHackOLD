@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Вложенные классы">
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Классы данных">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Navigation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Navigation.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -77,13 +78,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672862418875</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Эффективность лямбда-выражений">
-      <created>1673019281529</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1673019281529</updated>
     </task>
     <task id="LOCAL-00007" summary="ункция получает функцию">
       <created>1673030546687</created>
@@ -421,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674073591238</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Классы данных">
+      <created>1674144246990</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1674144246991</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -436,7 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Преобразование между списками и ассоциативными массивами" />
     <MESSAGE value="Перебор элементов ассоциативного массива" />
     <MESSAGE value="Преобразование данных use .map {}" />
     <MESSAGE value="use .associate {}" />
@@ -461,6 +461,7 @@
     <MESSAGE value="Рефакторинг кода таверны" />
     <MESSAGE value="Объявление объекта Game, use object" />
     <MESSAGE value="Вложенные классы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Вложенные классы" />
+    <MESSAGE value="Классы данных" />
+    <option name="LAST_COMMIT_MESSAGE" value="Классы данных" />
   </component>
 </project>
