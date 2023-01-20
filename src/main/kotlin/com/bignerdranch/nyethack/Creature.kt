@@ -21,3 +21,14 @@ interface Fightable {
         opponent.takeDamage(damageRoll)
     }
 }
+
+abstract class Monster(
+    override val name: String,
+    val description: String,
+    override var healthPoints: Int
+) : Fightable {
+
+    override fun takeDamage(damage: Int) {
+        healthPoints -= damage
+    }
+}

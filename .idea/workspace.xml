@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Реализация интерфейса">
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Реализация функции по умолчанию в интерфейсе">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Creature.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Creature.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Player.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Player.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +78,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672862418875</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Функция получает функцию">
-      <created>1673030575871</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1673030575871</updated>
     </task>
     <task id="LOCAL-00010" summary="Избавился от it">
       <created>1673031485697</created>
@@ -422,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674182425572</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Реализация функции по умолчанию в интерфейсе">
+      <created>1674185027222</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1674185027222</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -437,7 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="use .associate {}" />
     <MESSAGE value="Деструкторизация с map" />
     <MESSAGE value="Деструктуризация с map" />
     <MESSAGE value="use flatMap это flatten(удаление вложенности) + map" />
@@ -462,6 +461,7 @@
     <MESSAGE value="Классы данных" />
     <MESSAGE value="Создание карты мира NyetHack" />
     <MESSAGE value="Определение интерфейса" />
-    <option name="LAST_COMMIT_MESSAGE" value="Определение интерфейса" />
+    <MESSAGE value="Реализация функции по умолчанию в интерфейсе" />
+    <option name="LAST_COMMIT_MESSAGE" value="Реализация функции по умолчанию в интерфейсе" />
   </component>
 </project>
