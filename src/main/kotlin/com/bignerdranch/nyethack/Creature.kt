@@ -32,3 +32,12 @@ abstract class Monster(
         healthPoints -= damage
     }
 }
+
+class Goblin(
+    name: String = "Goblin",
+    description: String = "A nasty-looking goblin",
+    healthPoints: Int = 30
+) : Monster(name, description, healthPoints) {
+    override val diceCount: Int = 2
+    override val diceSides: Int = 8
+}
