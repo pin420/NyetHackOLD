@@ -73,7 +73,7 @@ class Player(
         }
     }
 
-    override fun attack(opponent: Fightable) {
-        TODO("Not yet implemented")
-    }
+//    override fun attack(opponent: Fightable) {
+//        TODO("Not yet implemented")
+//    }
 }

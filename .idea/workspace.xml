@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Определение интерфейса">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Реализация интерфейса">
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Creature.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Creature.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Player.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Player.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
