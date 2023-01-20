@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Создание карты мира NyetHack">
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Определение интерфейса">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Player.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Player.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,13 +78,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672862418875</updated>
-    </task>
-    <task id="LOCAL-00008" summary="ункция получает функцию">
-      <created>1673030562651</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1673030562651</updated>
     </task>
     <task id="LOCAL-00009" summary="Функция получает функцию">
       <created>1673030575871</created>
@@ -421,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674155143280</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Определение интерфейса">
+      <created>1674182425572</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1674182425572</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -436,7 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Преобразование данных use .map {}" />
     <MESSAGE value="use .associate {}" />
     <MESSAGE value="Деструкторизация с map" />
     <MESSAGE value="Деструктуризация с map" />
@@ -461,6 +461,7 @@
     <MESSAGE value="Вложенные классы" />
     <MESSAGE value="Классы данных" />
     <MESSAGE value="Создание карты мира NyetHack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создание карты мира NyetHack" />
+    <MESSAGE value="Определение интерфейса" />
+    <option name="LAST_COMMIT_MESSAGE" value="Определение интерфейса" />
   </component>
 </project>
