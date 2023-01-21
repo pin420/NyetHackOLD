@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Ограничения обобщений">
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Производитель out и потребитель in обобщённых">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Loot.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Loot.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/NyetHack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/NyetHack.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Player.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Player.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Room.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Room.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Tavern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Tavern.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +82,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672862418875</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Изменяемый список готов">
-      <created>1673105284439</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1673105284439</updated>
     </task>
     <task id="LOCAL-00018" summary="Итерации for forEach forEachIndexed">
       <created>1673107994834</created>
@@ -422,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674270055383</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Производитель out и потребитель in обобщённых">
+      <created>1674271835017</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1674271835017</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -437,7 +441,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="get и set методы свойств" />
     <MESSAGE value="Вычисляемые свойства" />
     <MESSAGE value="Создание пакета" />
     <MESSAGE value="Главный конструктор" />
@@ -462,6 +465,7 @@
     <MESSAGE value="Определение обобщённых классов" />
     <MESSAGE value="Определение обобщённой функции" />
     <MESSAGE value="Ограничения обобщений" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ограничения обобщений" />
+    <MESSAGE value="Производитель out и потребитель in обобщённых" />
+    <option name="LAST_COMMIT_MESSAGE" value="Производитель out и потребитель in обобщённых" />
   </component>
 </project>
