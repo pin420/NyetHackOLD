@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Определение функции-расширения" />
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Объявление расширения для суперкласса">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Extensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Extensions.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,13 +79,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672862418875</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Множества">
-      <created>1673193314708</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1673193314708</updated>
     </task>
     <task id="LOCAL-00022" summary="Цикл while">
       <created>1673193545058</created>
@@ -420,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674316459794</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Объявление расширения для суперкласса">
+      <created>1674317812207</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1674317812207</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -435,7 +438,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Объявление свойств в главном конструкторе" />
     <MESSAGE value="Дополнительный конструктор" />
     <MESSAGE value="Аргументы по умолчанию в классе" />
     <MESSAGE value="Поздняя инициализация lateinit" />
@@ -460,6 +462,7 @@
     <MESSAGE value="Добавление наград" />
     <MESSAGE value="Добавление магазинов и возможность продажи" />
     <MESSAGE value="Определение функции-расширения" />
-    <option name="LAST_COMMIT_MESSAGE" value="Определение функции-расширения" />
+    <MESSAGE value="Объявление расширения для суперкласса" />
+    <option name="LAST_COMMIT_MESSAGE" value="Объявление расширения для суперкласса" />
   </component>
 </project>
