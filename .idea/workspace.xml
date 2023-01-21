@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Разместили монстров и научили всех сражаться">
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Определение обобщённых классов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Loot.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Loot.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/NyetHack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/NyetHack.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,13 +79,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672862418875</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Основание таверны">
-      <created>1673100301556</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1673100301556</updated>
     </task>
     <task id="LOCAL-00015" summary="Подготовка функции main">
       <created>1673100954286</created>
@@ -421,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674255485401</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Определение обобщённых классов">
+      <created>1674260170978</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1674260170978</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -436,7 +438,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="use also - функция области видимости" />
     <MESSAGE value="Экземпляр класса и его функция" />
     <MESSAGE value="Свойства класса" />
     <MESSAGE value="get и set методы свойств" />
@@ -461,6 +462,7 @@
     <MESSAGE value="Создание подкласса из абстрактного класса и реализация его свойств" />
     <MESSAGE value="Определение комнат с монстрами" />
     <MESSAGE value="Разместили монстров и научили всех сражаться" />
-    <option name="LAST_COMMIT_MESSAGE" value="Разместили монстров и научили всех сражаться" />
+    <MESSAGE value="Определение обобщённых классов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Определение обобщённых классов" />
   </component>
 </project>

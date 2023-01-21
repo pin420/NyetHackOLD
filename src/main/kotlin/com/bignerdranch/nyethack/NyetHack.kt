@@ -18,6 +18,15 @@ fun main() {
     val lootBoxTwo: LootBox<Gemstones> = LootBox(Gemstones(150))
 
 
+    repeat(2) {
+        narrate(
+            lootBoxOne.takeLoot()?.let {
+                "The hero retrieves ${it.name} from the box"
+            } ?: "The box is empty"
+        )
+    }
+
+
     Game.play()
 }
 
