@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Добавление магазинов и возможность продажи">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Определение функции-расширения" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,16 +38,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/AdminPin/IdeaProjects/bounty-board",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/AdminPin/IdeaProjects/bounty-board&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\AdminPin\IdeaProjects\NyetHack\src\main\kotlin\com\bignerdranch\nyethack" />
@@ -78,13 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672862418875</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Деструкторизация из списка в список">
-      <created>1673140606166</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1673140606166</updated>
     </task>
     <task id="LOCAL-00021" summary="Множества">
       <created>1673193314708</created>
@@ -422,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674277033156</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Определение функции-расширения">
+      <created>1674316459794</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1674316459794</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -437,7 +435,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Главный конструктор" />
     <MESSAGE value="Объявление свойств в главном конструкторе" />
     <MESSAGE value="Дополнительный конструктор" />
     <MESSAGE value="Аргументы по умолчанию в классе" />
@@ -462,6 +459,7 @@
     <MESSAGE value="Производитель out и потребитель in обобщённых" />
     <MESSAGE value="Добавление наград" />
     <MESSAGE value="Добавление магазинов и возможность продажи" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавление магазинов и возможность продажи" />
+    <MESSAGE value="Определение функции-расширения" />
+    <option name="LAST_COMMIT_MESSAGE" value="Определение функции-расширения" />
   </component>
 </project>
