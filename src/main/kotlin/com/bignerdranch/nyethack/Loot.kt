@@ -1,7 +1,7 @@
 package com.bignerdranch.nyethack
 
 
-class LootBox<T : Loot>(var contents: T) {
+class LootBox<out T : Loot>(val contents: T) {
     var isOpen = false
         private set
 
@@ -11,7 +11,7 @@ class LootBox<T : Loot>(var contents: T) {
     }
 }
 
-class DropOffBox<T> where T : Loot, T : Sellable {
+class DropOffBox<in T> where T : Loot, T : Sellable {
     fun sellLoot(sellableLoot: T): Int {
         return (sellableLoot.value * 0.7).toInt()
     }
@@ -26,10 +26,17 @@ interface Sellable {
 }
 
 
+abstract class Hat : Loot(), Sellable
+
 class Fedora(
     override val name: String,
     override val value: Int
-) : Loot(), Sellable
+) : Hat()
+
+class Fez(
+    override val name: String,
+    override val value: Int
+) : Hat()
 
 class Gemstones(
     override val value: Int

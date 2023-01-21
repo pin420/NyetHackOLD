@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Определение обобщённой функции">
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Ограничения обобщений">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Loot.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Loot.kt" afterDir="false" />
     </list>
@@ -78,13 +78,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672862418875</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Создание списка посетителей">
-      <created>1673103221421</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1673103221421</updated>
     </task>
     <task id="LOCAL-00017" summary="Изменяемый список готов">
       <created>1673105284439</created>
@@ -422,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674261353464</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Ограничения обобщений">
+      <created>1674270055383</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1674270055383</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -437,7 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Свойства класса" />
     <MESSAGE value="get и set методы свойств" />
     <MESSAGE value="Вычисляемые свойства" />
     <MESSAGE value="Создание пакета" />
@@ -462,6 +461,7 @@
     <MESSAGE value="Разместили монстров и научили всех сражаться" />
     <MESSAGE value="Определение обобщённых классов" />
     <MESSAGE value="Определение обобщённой функции" />
-    <option name="LAST_COMMIT_MESSAGE" value="Определение обобщённой функции" />
+    <MESSAGE value="Ограничения обобщений" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ограничения обобщений" />
   </component>
 </project>
