@@ -18,7 +18,7 @@ class Player(
         get() = when {
             name.all { letter -> letter.isDigit() } -> "The Identifiable"
             name.none { letter -> letter.isLetter() } -> "The Witness Protection Member"
-            name.count { letter -> letter.lowercase() in "aeiou" } > 4 -> "The Master of Vowel"
+            name.numVowels > 4 -> "The Master of Vowel"
             else -> "The Renowned Hero"
         }
 

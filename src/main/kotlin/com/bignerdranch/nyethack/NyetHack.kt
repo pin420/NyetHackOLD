@@ -12,8 +12,7 @@ fun main() {
     val playerName = promptHeroName()
     player = Player(playerName)
 
-//    com.bignerdranch.nyethack.changeNarratorMood()
-
+    changeNarratorMood()
 
     Game.play()
 }
@@ -23,14 +22,12 @@ private fun promptHeroName(): String {
     narrate("A hero enters the town of Kronstadt. What is their name?"
     ) { message -> "\u001b[33;1m$message\u001b[0m" }
 
-//    val input = readLine()
-//    require(!heroName.isNullOrEmpty()) {
-//        "The hero must have a name"
-//    }
-//    return input
+    val input = readLine()
+    require(!input.isNullOrEmpty()) {
+        "The hero must have a name"
+    }
 
-    println("Madrigal")
-    return "Madrigal"
+    return input
 }
 
 
