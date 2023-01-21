@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Объявление расширения для суперкласса">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Extensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bignerdranch/nyethack/Extensions.kt" afterDir="false" />
-    </list>
+    <list default="true" id="02a53732-f73c-4f68-8539-2f8f31b8140f" name="Changes" comment="Операторные функции-расширения" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,34 +76,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672862418875</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Цикл while">
-      <created>1673193545058</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1673193545058</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Создание ассоциативного массива и доступ к его значениям">
-      <created>1673293606196</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1673293606196</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Добавление записей в ассоциативный массив">
-      <created>1673296387280</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1673296387280</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Добавление записей в ассоциативный массив">
-      <created>1673297128913</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1673297128913</updated>
     </task>
     <task id="LOCAL-00026" summary="Изменение значений в ассоциативном массиве">
       <created>1673297996751</created>
@@ -423,7 +392,35 @@
       <option name="project" value="LOCAL" />
       <updated>1674317812207</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Обобщённая функция-расширение">
+      <created>1674323965867</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1674323965867</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Обобщённая функция-расширение">
+      <created>1674324091044</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1674324091045</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Обобщённая функция-расширение в цепочку">
+      <created>1674324100029</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1674324100029</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Операторные функции-расширения">
+      <created>1674324993633</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1674324993633</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -438,10 +435,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Дополнительный конструктор" />
-    <MESSAGE value="Аргументы по умолчанию в классе" />
-    <MESSAGE value="Поздняя инициализация lateinit" />
-    <MESSAGE value="Отложенная(ленивая) инициализация by lazy" />
     <MESSAGE value="Объявление класса Room" />
     <MESSAGE value="Создание подкласса TownSquare, use open, override, final" />
     <MESSAGE value="Рефакторинг кода таверны" />
@@ -463,6 +456,10 @@
     <MESSAGE value="Добавление магазинов и возможность продажи" />
     <MESSAGE value="Определение функции-расширения" />
     <MESSAGE value="Объявление расширения для суперкласса" />
-    <option name="LAST_COMMIT_MESSAGE" value="Объявление расширения для суперкласса" />
+    <MESSAGE value="Обобщённая функция-расширение" />
+    <MESSAGE value="Обобщённая функция-расширение в" />
+    <MESSAGE value="Обобщённая функция-расширение для вызова в цепочку" />
+    <MESSAGE value="Операторные функции-расширения" />
+    <option name="LAST_COMMIT_MESSAGE" value="Операторные функции-расширения" />
   </component>
 </project>
